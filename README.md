@@ -30,4 +30,31 @@ The Shift Scheduler is a simple Python application built using the Tkinter libra
 ## Dependencies
 The program requires the Tkinter library, which is usually included in standard Python installations. No additional dependencies are needed.
 
+# About the Setup
+
+## Overview
+This setup script is used to create a standalone executable for the Shift Scheduler Application using cx_Freeze. The Shift Scheduler Application is a Python program that enables users to assign shifts to team members based on certain constraints.
+
+## Setup Details
+- **Name:** ShiftSchedulerApp
+- **Version:** 1.0
+- **Description:** Shift Scheduler Application
+
+## How to Use
+1. Ensure that you have Python installed on your system.
+2. Install cx_Freeze using `pip install cx-Freeze`.
+3. Save the provided setup script in the same directory as your Python script (`time_table_scheduler.py`).
+4. Run the setup script using `python setup.py build`.
+5. Once the build process is complete, you will find the standalone executable in the `build` directory.
+
+## Executable Details
+- **Name:** ShiftSchedulerApp.exe
+- **Base:** Win32GUI (Windows GUI application without console window)
+
+## Dependencies
+- Python 3.x
+- cx_Freeze
+
+
+
 
